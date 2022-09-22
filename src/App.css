@@ -17,11 +17,19 @@
 
 .react-stacked-center-carousel {
   left: 100px !important;
+  bottom: 50px !important;
 }
 
 .my-slide-component {
   width: 550px;
   height: 1050px;
+}
+
+.slide-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0;
 }
 
 .description {

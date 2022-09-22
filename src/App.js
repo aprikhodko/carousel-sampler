@@ -59,7 +59,7 @@ export default function ResponsiveCarousel(props) {
         carouselRef={ref}
         render={(parentWidth, carouselRef) => {
           let currentVisibleSlide = 5;
-          if (parentWidth <= 1440) currentVisibleSlide = 3;
+          if (parentWidth <= 550) currentVisibleSlide = 3;
           if (parentWidth <= 1080) currentVisibleSlide = 1;
           return (
             <StackedCarousel
@@ -97,12 +97,7 @@ export const Card = React.memo(function (props) {
           />
         </div>
         <img
-          style={{
-            height: "100%",
-            width: "100%",
-            objectFit: "cover",
-            borderRadius: 0,
-          }}
+          className="slide-image"
           draggable={false}
           src={cover}
         />
