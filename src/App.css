@@ -2,6 +2,46 @@
   text-align: center;
 }
 
+.main-body {
+  background-color: black !important;
+  width: 100%;
+  position: relative;
+}
+
+.main-header {
+  position: relative;
+  text-align: center;
+  top: 100px;
+  color: #F8C330;
+}
+
+.react-stacked-center-carousel {
+  left: 100px !important;
+}
+
+.my-slide-component {
+  width: 550px;
+  height: 1050px;
+}
+
+.description {
+  position: relative;
+  top: 80%;
+  background-color: rgb(211, 211, 211, 0.7);
+  color: black;
+  font-weight: 900;
+  text-align: center;
+}
+
+.MuiTypography-h5 {
+  line-height: 50px !important;
+}
+
+.MuiTypography-colorTextSecondary {
+  color: black !important;
+  line-height: 30px !important;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +72,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
