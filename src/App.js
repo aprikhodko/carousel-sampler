@@ -50,7 +50,7 @@ export const data = [
 ];
 
 
-export default function ResponsiveCarousel(props) {
+export default function ResponsiveCarousel() {
   const ref = React.useRef();
   return (
     <div class="main-body">
